@@ -10,6 +10,7 @@ RUN \
   apt-get update && \
   apt-get -y upgrade && \
   apt-get install -y curl inotify-tools && \
+  apt-get install -y build-essential && \
   apt-get install -y nodejs && \
   apt-get install -y npm && \
   ln -s /usr/bin/nodejs /usr/bin/node && \
